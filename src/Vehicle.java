@@ -6,7 +6,7 @@ public class Vehicle
     public Vehicle(String i)
     {
         id = i;
-        available = true;
+        setAvailable(true);
     }
 
     public String getId() {
